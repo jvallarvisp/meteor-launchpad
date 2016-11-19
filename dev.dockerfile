@@ -1,5 +1,5 @@
-FROM jshimko/meteor-launchpad:base
-MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
+FROM jvallarvisp/meteor-launchpad:base
+MAINTAINER Jameson Vallar <jvallar@gmail.com>
 
 ENV DEV_BUILD true
 

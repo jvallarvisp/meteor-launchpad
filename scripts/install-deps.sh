@@ -6,7 +6,9 @@ printf "\n[-] Installing base OS dependencies...\n\n"
 
 apt-get update -y
 
-apt-get install -y --no-install-recommends curl ca-certificates bzip2 build-essential numactl python git wget
+apt-get install -y --no-install-recommends curl ca-certificates bzip2 build-essential numactl python git wget libpq-dev
+
+pg_config
 
 dpkgArch="$(dpkg --print-architecture | awk -F- '{ print $NF }')"
 

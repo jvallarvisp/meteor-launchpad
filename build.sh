@@ -2,6 +2,6 @@
 
 set -e
 
-docker build -t jshimko/meteor-launchpad:base .
-docker build -f dev.dockerfile -t jshimko/meteor-launchpad:devbuild .
-docker build -f prod.dockerfile -t jshimko/meteor-launchpad:latest .
+docker build -t jvallarvisp/meteor-launchpad:base .
+docker build -f dev.dockerfile -t jvallarvisp/meteor-launchpad:devbuild .
+docker build -f prod.dockerfile -t jvallarvisp/meteor-launchpad:latest .

@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
+MAINTAINER Jameson Vallar <jvallar@gmail.com>
 
 RUN groupadd -r node && useradd -m -g node node
 
@@ -39,6 +39,7 @@ ENV MONGO_URL mongodb://127.0.0.1:27017/meteor
 ENV PORT 3000
 
 EXPOSE 3000
+EXPOSE 8080
 
 WORKDIR $APP_BUNDLE_DIR/bundle
 

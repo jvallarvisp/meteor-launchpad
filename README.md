@@ -6,7 +6,7 @@
 Add the following to a `Dockerfile` in the root of your app:
 
 ```Dockerfile
-FROM jshimko/meteor-launchpad:latest
+FROM jvallarvisp/meteor-launchpad:latest
 ```
 
 Then you can build the image with:
