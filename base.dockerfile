@@ -3,13 +3,14 @@ MAINTAINER Jameson Vallar <jvallar@gmail.com>
 
 RUN groupadd -r node && useradd -m -g node node
 
-ENV NODE_VERSION 4.6.1
+ENV NODE_VERSION 4.7.0
 ENV GOSU_VERSION 1.10
 
 # Optionally Install MongoDB
 ENV INSTALL_MONGO false
-ENV MONGO_VERSION 3.2.10
-ENV MONGO_MAJOR 3.2
+ENV MONGO_VERSION 3.4.0
+ENV MONGO_MAJOR 3.4
+ENV MONGO_PACKAGE mongodb-org
 
 # Optionally Install PhantomJS
 ENV INSTALL_PHANTOMJS false
