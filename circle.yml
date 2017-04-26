@@ -11,8 +11,8 @@ test:
     - echo "No tests yet..."
 
 deployment:
-  release:
-    tag: /v[0-9]+(\.[0-9]+)*/
+  hub:
+    branch: master
     owner: jvallarvisp
     commands:
       - ./ci-build.sh
