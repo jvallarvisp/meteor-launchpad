@@ -3,7 +3,7 @@ MAINTAINER Jameson Vallar <jvallar@gmail.com>
 
 RUN groupadd -r node && useradd -m -g node node
 
-ENV NODE_VERSION 4.7.0
+ENV NODE_VERSION 6.10.2
 ENV GOSU_VERSION 1.10
 
 # Optionally Install MongoDB
